@@ -1,0 +1,229 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+/* Main Section */
+body{
+    background-color: #17091f;
+}
+/* header */
+#header{
+    display: flex;
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1.6rem;
+}
+/* btn */
+.btn{
+    width: 6rem;
+    margin-left: 58rem;
+    text-decoration: none;
+    background-color: #f90606;
+    padding: 0.9rem;
+    padding-left: 1.5rem;
+    color: #fff;
+    border-radius: 0.5rem;
+}
+/* logo */
+.logo{
+    width: 10rem;
+    margin-left: 5rem;
+
+}
+/*  Section-showcase */
+#showcase{
+    background-image:  linear-gradient(84.58deg, rgba(0, 8, 29, 0.6) 10.01%, rgba(53, 13, 49, 0.6) 73.1%, rgba(132, 5, 25, 0.6) 101.09%),linear-gradient(102.21deg, rgba(0, 0, 0, 0.04) 16.09%, rgba(1, 1, 1, 0.17) 39.27%, rgba(1, 1, 1, 0.24) 64.25%, rgba(4, 4, 4, 0.8) 96.63%),url("../NETFLIX/netflix.jpg");
+    max-width: 180vh;
+    border-radius: 2rem;
+    height: 100vh;
+    margin: auto;
+    min-height: 32rem;
+}
+.showcase-main{
+    padding-top: 10rem;
+    padding-left: 3rem;
+    max-width: 100%;
+}
+/* form */
+.form{
+    margin-top: 2rem;
+    max-width: 80rem;
+}
+/* input */
+.input{
+    padding: 1.3rem;
+    width: 20rem;
+    border-radius: 0.3rem;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.798);
+}
+.button{
+   
+    text-decoration: none;
+    padding: 0.45rem 1.4rem;
+    border-radius: 0.3rem;
+    border-radius: 0.25rem;
+    vertical-align: text-top;
+    width: auto;
+    font-size: 1.5rem;
+    font-weight: 500;
+    min-height: 3.5rem;
+    padding: 0.75rem 1.5rem;
+    background: rgb(229, 9, 20);
+    color: rgb(255, 255, 255);
+}
+/* texts */
+.text-pry{
+    color: #fff;
+    font-size: 3.8rem;
+}
+.text{
+    font-size: 1.5rem;
+    color: #fff;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.info{
+    color: #fff;
+    font-size: 1.5rem;
+
+}
+.txt{
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+
+/*  section-show-more */
+#show-more{
+    margin-top: 20rem;
+    min-height: 32rem;
+    background: linear-gradient(146.77deg, rgba(0, 8, 29, 0.6) 0%, rgba(53, 13, 49, 0.6) 65.31%, rgba(132, 5, 25, 0.6) 99.52%);
+    border-radius: 16px;
+    max-width: 80rem;
+    margin: auto;
+}
+#show-more .more{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: auto;
+}
+#show-more .more1{
+    display: flex;
+     max-width: 80rem;
+    margin: auto;
+   
+}
+ .border {
+    border-bottom: 8px solid rgba(255, 255, 255, 0.1);
+    width: 80%;
+    margin: auto;
+   
+}
+  /*icons-1  */
+  .gif{
+    max-width: 10%;
+    max-height: 2.5rem;
+    margin-top: 18rem;
+    margin-left: -10rem;
+}
+.icons1{
+    max-height: 2.5rem;
+}
+/*  show */
+.text-show{
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.img-show{
+    width: 40%;
+}
+.cont{
+    max-width:40rem ;
+    margin-left: 6rem;
+    margin-top:5rem ;
+    margin-bottom: 2rem;
+}
+
+
+/*  section-features */
+.icon{
+    position: relative;
+    font-size: 2.4rem;
+    top: -2rem;
+    margin-left: 55rem;
+    
+}
+.text-feat{
+    margin-top: 1.5rem;
+    margin-bottom: 2.8rem;
+    color: #fff;
+    font-size: 1.5rem;
+}
+/*  Features ul */
+#features ul {
+   list-style: none;
+}
+#features{
+    margin: auto;
+    max-width: 60rem;
+
+}
+#features .feat{
+    background-color: rgba(19, 33, 68, 1);
+  color: #fff;
+  width: 60rem;
+  height: 3rem;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+#features .feat:hover{
+    background-color: #0f5f792f;
+}
+/* info */
+#info{
+   margin-left: 11.7rem;
+  color: #fff;
+  font-size: 1.1rem;
+}
+#info .more-info{
+   margin-top: 3rem;
+}
+/* form-2 */
+#form-2 .form{
+    max-width: 20rem;
+    margin-bottom: 10rem;
+    display: 2px solid red;
+}
+
+
+/* footer */
+.links{
+    display: flex;
+    margin-left: 11.7rem;
+    margin-top: 3rem;
+}
+.lin-2{
+    margin-left: 5.5rem;
+}
+.lin{
+    color: #fff;
+    justify-content: center;
+    margin-left: 2rem;
+    list-style: none;
+}
+.lin  li a{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.9rem;
+    margin-top: 2.5rem;
+}
+.ln-txt{
+    margin-top: 4rem;
+    margin-left: 13rem;
+    color: #fff;
+}

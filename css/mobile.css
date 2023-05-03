@@ -1,0 +1,13 @@
+body{
+    background-color: rgba(0, 0, 0, 0.912);
+}
+
+#show-more{
+    background: linear-gradient(146.77deg, rgba(2, 3, 6, 0.6) 0%, rgba(13, 1, 12, 0.6) 65.31%, rgba(100, 9, 23, 0.746) 99.52%);
+
+}
+#show-more .more,#show-more .more1{
+}
+#features .feat{
+    background-color: #161d4f62;
+}
