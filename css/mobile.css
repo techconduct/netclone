@@ -1,13 +1,306 @@
 body{
     background-color: rgba(0, 0, 0, 0.912);
 }
-
+/* header */
+.header{
+    max-width: 40rem;
+    display: flex;
+    margin-top:1.5rem;
+}
+.logo{
+    margin-left: 0.2rem;
+}
+.btn{
+margin-left: 23rem;
+}
 #show-more{
     background: linear-gradient(146.77deg, rgba(2, 3, 6, 0.6) 0%, rgba(13, 1, 12, 0.6) 65.31%, rgba(100, 9, 23, 0.746) 99.52%);
 
 }
-#show-more .more,#show-more .more1{
-}
+
 #features .feat{
     background-color: #161d4f62;
+}
+.container{
+   max-width: 50%; 
+}
+
+
+/*  Section-showcase */
+#showcase{
+    background-image:  linear-gradient(84.58deg, rgba(0, 8, 29, 0.6) 10.01%, rgba(53, 13, 49, 0.6) 73.1%, rgba(132, 5, 25, 0.6) 101.09%),linear-gradient(102.21deg, rgba(0, 0, 0, 0.04) 16.09%, rgba(1, 1, 1, 0.17) 39.27%, rgba(1, 1, 1, 0.24) 64.25%, rgba(4, 4, 4, 0.8) 96.63%),url("../NETFLIX/netflix.jpg");
+    max-width: 40rem;
+    border-radius: 2rem;
+    height: 70vh;
+    margin: auto;
+    min-height: 32rem;
+}
+.showcase-main{
+    padding-top: 10rem;
+    padding-left: 2rem;
+    max-width: 30rem;
+}
+/* form */
+.form{
+    margin-top: 2rem;
+    max-width:80rem;
+}
+/* input */
+.input{
+    padding: 1.1rem;
+    width: 15rem;
+    border-radius: 0.3rem;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.798);
+}
+.button{
+   
+    text-decoration: none;
+    padding: 0.45rem 1.4rem;
+    border-radius: 0.3rem;
+    border-radius: 0.25rem;
+    vertical-align: text-top;
+    width: auto;
+    font-size: 0.9rem;
+    font-weight: 500;
+    min-height: 3.5rem;
+    padding: 0.75rem 1.5rem;
+    background: rgb(229, 9, 20);
+    color: rgb(255, 255, 255);
+}
+/* texts */
+.text-pry{
+    color: #fff;
+    font-size: 2.4rem;
+}
+.text{
+    font-size: 1.3rem;
+    color: #fff;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.info{
+    color: #fff;
+    font-size: 1.2rem;
+
+}
+.txt{
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+
+/*  section-show-more */
+#show-more{
+    max-height: 58rem;
+    background: linear-gradient(146.77deg, rgba(2, 3, 6, 0.6) 0%, rgba(13, 1, 12, 0.6) 65.31%, rgba(100, 9, 23, 0.746) 99.52%);
+    border-radius: 16px;
+    max-width: 40rem;
+    margin: auto;
+    margin-top: 02rem;
+
+}
+#show-more .more{
+    display: flex;
+    flex-direction: row-reverse;
+   margin-left: 1rem;
+   max-width: 30rem;
+}
+#show-more .more1{
+    display: flex;
+     max-width: 80rem;
+    margin: auto;
+   
+}
+ .border {
+    border-bottom: 8px solid rgba(255, 255, 255, 0.1);
+    width: 80%;
+    margin: auto;
+   
+}
+  /*icons-1  */
+  .gif{
+    max-width: 30%;
+    max-height: 2.5rem;
+    margin-top: 6.65rem;
+    margin-left:-4rem;
+    border-radius: 0.5rem;
+}
+.icons1{
+    max-height: 2.5rem;
+}
+/*  show */
+.text-show{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.img-show{
+    width: 30%;
+    height: 10rem;
+}
+.cont{
+    max-width:40rem ;
+    margin-left: 6rem;
+    margin-top:5rem ;
+    margin-bottom: 2rem;
+}
+
+
+/*  section-features */
+.icon{
+    position: absolute;
+    font-size: 1.2rem;
+     top: 1rem; 
+     left: -20rem;
+
+    
+}
+.text-feat{
+    margin-top: 1.5rem;
+    margin-bottom: 2.8rem;
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: center;
+}
+/*  Features ul */
+#features ul {
+   list-style: none;
+}
+#features{
+    margin: auto;
+    max-width: 40rem;
+
+}
+#features .feat{
+    position: relative;
+    background-color: rgba(19, 33, 68, 1);
+  color: #fff;
+  max-width: 38rem;
+  height: 3rem;
+  font-size: 1.2rem;
+  margin-left: 0.8rem;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+#features .feat:hover{
+    background-color: #0f5f792f;
+}
+/* info */
+#info{
+   margin-left: 11.7rem;
+  color: #fff;
+  font-size: 1.1rem;
+}
+#info .more-info{
+   margin-top: 3rem;
+}
+
+/* form-2 */
+#form-2 {
+    max-width: 50rem;
+    margin-bottom: 3rem;
+
+}
+#form-2  input{
+     background-color: rgba(0, 0, 0, 0.551);
+    border: none;
+    margin-left: 12rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    display: inline-block;
+    margin-bottom: 1.5rem;
+    
+}
+#form-2 a{
+    margin-left: 0.5rem;
+    text-decoration: none;
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid red;
+    padding: 0.6rem;
+    border-radius: 0.5rem;
+    
+}
+#form-2 a:hover{
+    background-color: #f90606;
+    margin-top: -1rem;
+    transition: 1s ease-in  ;
+}
+
+/* info */
+#info{
+    margin-left: 2.5rem;
+   color: #fff;
+   font-size: 1.1rem;
+ }
+ #info .more-info{
+    margin-top: 3rem;
+    margin-left:2rem ;
+ }
+ 
+ /* form-2 */
+ #form-2 {
+     max-width: 50rem;
+     margin-bottom: 3rem;
+     margin-left:2rem ;
+ 
+ }
+ #form-2  input{
+      background-color: rgba(0, 0, 0, 0.551);
+     border: none;
+     margin-left: 2.5rem;
+     padding: 1rem;
+     border-radius: 0.5rem;
+     display: inline-block;
+     margin-bottom: 1.5rem;
+     
+ }
+ #form-2 a{
+     margin-left: 0.5rem;
+     text-decoration: none;
+     color: #fff;
+     background-color: transparent;
+     border: 2px solid red;
+     padding: 0.6rem;
+     border-radius: 0.5rem;
+     
+ }
+ #form-2 a:hover{
+     background-color: #f90606;
+     margin-top: -1rem;
+     transition: 1s ease-in  ;
+ }
+
+
+
+
+
+/* footer */
+.links{
+    display: flex;
+    margin-left: 1.7rem;
+    margin-top: 3rem;
+}
+.lin-2{
+    margin-left: 5.5rem;
+}
+.lin{
+    color: #fff;
+    justify-content: space-evenly;
+    margin-left: 2rem;
+    list-style: none;
+    
+}
+.lin  li a{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.9rem;
+    margin-top: 2.5rem;
+    text-decoration: none;
+    list-style: none;
+}
+.ln-txt{
+    margin-top: 4rem;
+    margin-left: 13rem;
+    color: #fff;
 }

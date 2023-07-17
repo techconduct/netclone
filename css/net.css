@@ -19,7 +19,8 @@ body{
 /* btn */
 .btn{
     width: 6rem;
-    margin-left: 58rem;
+    margin-left:62rem ;
+    /* margin-left: 58rem; */
     text-decoration: none;
     background-color: #f90606;
     padding: 0.9rem;
@@ -30,7 +31,7 @@ body{
 /* logo */
 .logo{
     width: 10rem;
-    margin-left: 5rem;
+    margin-left: 1.5rem;
 
 }
 /*  Section-showcase */
@@ -99,12 +100,12 @@ body{
 
 /*  section-show-more */
 #show-more{
-    margin-top: 20rem;
+    margin-top: 1rem;
     min-height: 32rem;
     background: linear-gradient(146.77deg, rgba(0, 8, 29, 0.6) 0%, rgba(53, 13, 49, 0.6) 65.31%, rgba(132, 5, 25, 0.6) 99.52%);
     border-radius: 16px;
     max-width: 80rem;
-    margin: auto;
+    margin-left:2rem ;
 }
 #show-more .more{
     display: flex;
@@ -194,11 +195,37 @@ body{
 #info .more-info{
    margin-top: 3rem;
 }
+
 /* form-2 */
-#form-2 .form{
-    max-width: 20rem;
-    margin-bottom: 10rem;
-    display: 2px solid red;
+#form-2 {
+    max-width: 50rem;
+    margin-bottom: 3rem;
+
+}
+#form-2  input{
+     background-color: rgba(0, 0, 0, 0.551);
+    border: none;
+    margin-left: 12rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    display: inline-block;
+    margin-bottom: 1.5rem;
+    
+}
+#form-2 a{
+    margin-left: 1rem;
+    text-decoration: none;
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid red;
+    padding: 0.6rem;
+    border-radius: 0.5rem;
+    
+}
+#form-2 a:hover{
+    transition: 1s ease-in  ;
+    background-color: #f90606;
+    margin-top: -1rem;
 }
 
 
@@ -216,11 +243,14 @@ body{
     justify-content: center;
     margin-left: 2rem;
     list-style: none;
+    
 }
 .lin  li a{
     color: rgba(255, 255, 255, 0.7);
     font-size: 0.9rem;
     margin-top: 2.5rem;
+    text-decoration: none;
+    list-style: none;
 }
 .ln-txt{
     margin-top: 4rem;
